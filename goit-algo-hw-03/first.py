@@ -1,3 +1,20 @@
+from datetime import datetime
+
+
+def get_days_from_today(date: str):
+    if date[4:8:3] == '--' and date.replace('-', '').isdigit():  # Incorrect input processing.
+        try:  # Incorrect input processing in during day or month is out of range.
+            data_now = datetime.now().date()
+            data_next = datetime.strptime(date, "%Y-%m-%d").date()
+            delta_days = (data_next - data_now).days
+            return delta_days
+        except ValueError:
+            return "Day or month is out of range."
+    else:
+        return "Incorrect format input. Try like sample: (yyyy-mm-dd)."
+
+
+print(get_days_from_today("2025-12-31"))
 
 """Перше завдання
 
