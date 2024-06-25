@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10d11218-bf56-4a4f-b43a-9b992405fd45" name="Changes" comment="Done home work 2">
+    <list default="true" id="10d11218-bf56-4a4f-b43a-9b992405fd45" name="Changes" comment="Done home work 2 add sorted(ls)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goit-algo-hw-03/second.py" beforeDir="false" afterPath="$PROJECT_DIR$/goit-algo-hw-03/second.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goit-algo-hw-03/third.py" beforeDir="false" afterPath="$PROJECT_DIR$/goit-algo-hw-03/third.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +41,7 @@
     "Python.3modul 6_6_my_prog_from_autocheck_go_it.executor": "Run",
     "Python.first.executor": "Run",
     "Python.second.executor": "Run",
+    "Python.third.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
@@ -93,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719314773022</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Done home work 2 add sorted(ls)">
+      <option name="closed" value="true" />
+      <created>1719315251744</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719315251744</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,6 +121,18 @@
     <MESSAGE value="start home work 1" />
     <MESSAGE value="Done home work 1" />
     <MESSAGE value="Done home work 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done home work 2" />
+    <MESSAGE value="Done home work 2 add sorted(ls)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done home work 2 add sorted(ls)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/goit-algo-hw-03/third.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
