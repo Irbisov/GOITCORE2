@@ -11,10 +11,11 @@ def get_numbers_ticket(min_f, max_f, quantity_f):
             while target in ls:
                 target = random.randint(min_f, max_f)
             ls.append(target)
-        return ls
+        ls_sort = sorted(ls)
+    return ls_sort
 
 
-print(get_numbers_ticket(1, 100, 101))
+print(get_numbers_ticket(1, 1000, 101))
 
 """Друге завдання
 
