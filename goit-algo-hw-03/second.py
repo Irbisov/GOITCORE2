@@ -1,3 +1,21 @@
+import random
+
+
+def get_numbers_ticket(min_f, max_f, quantity_f):
+    ls = []
+    if quantity_f >= max_f or min_f < 1 or max_f > 1000:
+        return f"Incorrect input  min = {min_f} or max = {max_f} or quantity = {quantity_f}. Try to change the input data."
+    else:
+        for i in range(quantity_f):
+            target = random.randint(min_f, max_f)
+            while target in ls:
+                target = random.randint(min_f, max_f)
+            ls.append(target)
+        return ls
+
+
+print(get_numbers_ticket(1, 100, 101))
+
 """Друге завдання
 
 

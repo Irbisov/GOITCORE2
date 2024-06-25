@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10d11218-bf56-4a4f-b43a-9b992405fd45" name="Changes" comment="start home work 1">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goit-algo-hw-03/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goit-algo-hw-03/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/goit-algo-hw-03/first.py" afterDir="false" />
+    <list default="true" id="10d11218-bf56-4a4f-b43a-9b992405fd45" name="Changes" comment="Done home work 1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goit-algo-hw-03/second.py" beforeDir="false" afterPath="$PROJECT_DIR$/goit-algo-hw-03/second.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +40,7 @@
     "Python.3modul 6_6_my_prog.executor": "Run",
     "Python.3modul 6_6_my_prog_from_autocheck_go_it.executor": "Run",
     "Python.first.executor": "Run",
+    "Python.second.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
@@ -82,7 +77,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719243588102</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Done home work 1">
+      <option name="closed" value="true" />
+      <created>1719312889885</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719312889885</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,6 +102,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start home work" />
     <MESSAGE value="start home work 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="start home work 1" />
+    <MESSAGE value="Done home work 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done home work 1" />
   </component>
 </project>
