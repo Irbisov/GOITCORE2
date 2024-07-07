@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10d11218-bf56-4a4f-b43a-9b992405fd45" name="Changes" comment="Done home work 2 Task 1">
+    <list default="true" id="10d11218-bf56-4a4f-b43a-9b992405fd45" name="Changes" comment="Done home work 2 Task 1 Add try/exept ZeroDivisionError,IndexError">
+      <change afterPath="$PROJECT_DIR$/goit_algo_hw_04/second.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goit_algo_hw_04/second_example.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goit_algo_hw_04/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/goit_algo_hw_04/first.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goit_algo_hw_04/first_example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/goit_algo_hw_04/first_example.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720372932199</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Done home work 2 Task 1 Add try/exept ZeroDivisionError,IndexError">
+      <option name="closed" value="true" />
+      <created>1720373802594</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720373802594</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,7 +148,8 @@
     <MESSAGE value="Done home work 2" />
     <MESSAGE value="Done home work 2 add sorted(ls)" />
     <MESSAGE value="Done home work 2 Task 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done home work 2 Task 1" />
+    <MESSAGE value="Done home work 2 Task 1 Add try/exept ZeroDivisionError,IndexError" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done home work 2 Task 1 Add try/exept ZeroDivisionError,IndexError" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
