@@ -24,5 +24,6 @@ def get_cats_info(path):
     exit()
 
 
-cats_info = get_cats_info('second_example.txt')
-print(cats_info)
+if __name__ == '__main__':
+    cats_info = get_cats_info('second_example.txt')
+    print(cats_info)

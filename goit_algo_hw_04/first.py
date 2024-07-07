@@ -18,4 +18,5 @@ def total_salary(path):
     return print(f'{path} to file is not found.')
 
 
-total_salary('first_example.txt')
+if __name__ == '__main__':
+    total_salary('first_example.txt')
