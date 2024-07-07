@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10d11218-bf56-4a4f-b43a-9b992405fd45" name="Changes" comment="Done home work 2 add sorted(ls)">
-      <change afterPath="$PROJECT_DIR$/goit-algo-hw-04/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goit_algo_hw_04/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goit_algo_hw_04/first_example.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goit-algo-hw-03/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/goit_algo_hw_04/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719315251744</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Done home work 2 add sorted(ls)">
+      <option name="closed" value="true" />
+      <created>1719661509590</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719661509590</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,7 +138,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/goit-algo-hw-03/third.py</url>
+          <url>file://$PROJECT_DIR$/goit_algo_hw_03/third.py</url>
           <line>27</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
