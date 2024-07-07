@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10d11218-bf56-4a4f-b43a-9b992405fd45" name="Changes" comment="Done home work 2 Task 1 Add try/exept ZeroDivisionError,IndexError">
-      <change afterPath="$PROJECT_DIR$/goit_algo_hw_04/second.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goit_algo_hw_04/second_example.txt" afterDir="false" />
+    <list default="true" id="10d11218-bf56-4a4f-b43a-9b992405fd45" name="Changes" comment="Add if __name__ == '__main__':">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goit_algo_hw_04/fourth.py" beforeDir="false" afterPath="$PROJECT_DIR$/goit_algo_hw_04/fourth.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,20 +32,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3modul 6_6_my_prog.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3modul 6_6_my_prog_from_autocheck_go_it.executor&quot;: &quot;Run&quot;,
-    &quot;Python.first.executor&quot;: &quot;Run&quot;,
-    &quot;Python.second.executor&quot;: &quot;Run&quot;,
-    &quot;Python.third.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.1.executor": "Run",
+    "Python.2.executor": "Run",
+    "Python.3.executor": "Run",
+    "Python.3modul 6_6_my_prog.executor": "Run",
+    "Python.3modul 6_6_my_prog_from_autocheck_go_it.executor": "Run",
+    "Python.dsfds.executor": "Run",
+    "Python.first.executor": "Run",
+    "Python.fourth.executor": "Run",
+    "Python.second.executor": "Run",
+    "Python.third.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -127,7 +128,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720373802594</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Done home work 4 Task 2">
+      <option name="closed" value="true" />
+      <created>1720380215333</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720380215333</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add if __name__ == '__main__':">
+      <option name="closed" value="true" />
+      <created>1720380513119</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720380513119</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,7 +166,9 @@
     <MESSAGE value="Done home work 2 add sorted(ls)" />
     <MESSAGE value="Done home work 2 Task 1" />
     <MESSAGE value="Done home work 2 Task 1 Add try/exept ZeroDivisionError,IndexError" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done home work 2 Task 1 Add try/exept ZeroDivisionError,IndexError" />
+    <MESSAGE value="Done home work 4 Task 2" />
+    <MESSAGE value="Add if __name__ == '__main__':" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add if __name__ == '__main__':" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
