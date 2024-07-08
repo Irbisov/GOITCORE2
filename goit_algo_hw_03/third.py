@@ -21,7 +21,6 @@ def normalize_phone(phone_number):
     elif len(digit_number) == 12:
         digit_number = '+' + digit_number
 
-
     return digit_number
 
 

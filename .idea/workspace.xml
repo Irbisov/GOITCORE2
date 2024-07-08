@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10d11218-bf56-4a4f-b43a-9b992405fd45" name="Changes" comment="Add if __name__ == '__main__':">
+      <change afterPath="$PROJECT_DIR$/goit_algo_hw_04/third.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goit_algo_hw_04/fourth.py" beforeDir="false" afterPath="$PROJECT_DIR$/goit_algo_hw_04/fourth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goit_algo_hw_03/third.py" beforeDir="false" afterPath="$PROJECT_DIR$/goit_algo_hw_03/third.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +46,19 @@
     "Python.second.executor": "Run",
     "Python.third.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/rogstrix/PycharmProjects/GOITCORE2/goit_algo_hw_04/ool"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/goit_algo_hw_04/ool" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/goit_algo_hw_04" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -175,7 +186,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/goit_algo_hw_03/third.py</url>
-          <line>27</line>
+          <line>26</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
