@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10d11218-bf56-4a4f-b43a-9b992405fd45" name="Changes" comment="Done first and second task HW 5">
-      <change afterPath="$PROJECT_DIR$/goit_algo_hw_05/fourth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goit_algo_hw_05/fourths.py" afterDir="false" />
+    <list default="true" id="10d11218-bf56-4a4f-b43a-9b992405fd45" name="Changes" comment="Done fourth task HW 5">
+      <change afterPath="$PROJECT_DIR$/goit_algo_hw_05/log_text.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/goit_algo_hw_05/third.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -46,32 +45,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3modul 6_6_my_prog.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3modul 6_6_my_prog_from_autocheck_go_it.executor&quot;: &quot;Run&quot;,
-    &quot;Python.codecs.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dsfds.executor&quot;: &quot;Run&quot;,
-    &quot;Python.first.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.fourth.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fourths.executor&quot;: &quot;Run&quot;,
-    &quot;Python.parse.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.scratch_24.executor&quot;: &quot;Run&quot;,
-    &quot;Python.second.executor&quot;: &quot;Run&quot;,
-    &quot;Python.third.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/rogstrix/PycharmProjects/GOITCORE2/goit_algo_hw_04/ool&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.1.executor": "Run",
+    "Python.2.executor": "Run",
+    "Python.3.executor": "Run",
+    "Python.3modul 6_6_my_prog.executor": "Run",
+    "Python.3modul 6_6_my_prog_from_autocheck_go_it.executor": "Run",
+    "Python.codecs.executor": "Run",
+    "Python.dsfds.executor": "Run",
+    "Python.first.executor": "Debug",
+    "Python.fourth.executor": "Run",
+    "Python.fourths.executor": "Run",
+    "Python.parse.executor": "Debug",
+    "Python.scratch_24.executor": "Run",
+    "Python.scratch_25.executor": "Run",
+    "Python.second.executor": "Run",
+    "Python.third.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/rogstrix/PycharmProjects/GOITCORE2/goit_algo_hw_04/ool",
+    "settings.editor.selected.configurable": "terminal"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;Python&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/goit_algo_hw_04/ool" />
@@ -193,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720953784499</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Done fourth task HW 5">
+      <option name="closed" value="true" />
+      <created>1720974064618</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1720974064618</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,7 +228,8 @@
     <MESSAGE value="Add if __name__ == '__main__':" />
     <MESSAGE value="Done third task HW 4" />
     <MESSAGE value="Done first and second task HW 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done first and second task HW 5" />
+    <MESSAGE value="Done fourth task HW 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done fourth task HW 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -243,11 +253,6 @@
           <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_24.py</url>
           <line>22</line>
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/goit_algo_hw_05/fourth.py</url>
-          <line>95</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
