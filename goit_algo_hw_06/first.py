@@ -38,7 +38,7 @@ class Record:
         try:
             self.phones.remove(Phone(phone).phone())
         except ValueError:
-            print(f'Phone nuber {phone} not exist')
+            print(f'Phone number {phone} for remove not exist')
 
     def edit_phone(self, old_phone, new_phone):
         if Phone(old_phone).phone() in self.phones:
@@ -47,8 +47,9 @@ class Record:
                     index = self.phones.index(i)
                     self.phones.remove(i)
                     if bool(Phone(new_phone).phone()):
-                        self.phones.insert(index, Phone(new_phone).phone())
-        print(f'Phone nuber {old_phone} not exist')
+                        self.phones.insert(index, new_phone)
+        else:
+            print(f'Phone nuber {old_phone} for edit not exist')
 
     def find_phone(self, phone):
         if Phone(phone).phone() in self.phones:
@@ -56,21 +57,16 @@ class Record:
         return None
 
     def __str__(self):
-        name = self.name.value[0]
-        numbers = self.name.value[1]
-        return f"Contact name: {name}, phones: {'; '.join(numbers)}"
+        return f"Contact name: {self.name.value}, phones: {'; '.join(self.phones)}."
 
 
 class AddressBook(UserDict):
 
-    def add_record(self, contact: Record):
-        self.data[contact.name.value] = contact.phones
+    def add_record(self, contact_name: Record):
+        self.data[contact_name.name.value] = contact_name
 
     def find(self, name) -> Record:
-        if self.data.get(name):
-            for i in self.data.items():
-                if i[0] == name:
-                    return Record(i)
+        return self.data.get(name)
 
     def delete(self, name: str) -> None:
         del self.data[name]
@@ -106,6 +102,12 @@ print(john)  # Виведення: Contact name: John, phones: 1112223333; 55555
 # Пошук конкретного телефону у записі John
 found_phone = john.find_phone("5555555555")
 print(f"{john.name}: {found_phone}")  # Виведення: John: 5555555555
-
+jane = book.find("Jane")
+john.add_phone('1234567890')
+john.remove_phone('1112223333')
+book.add_record(john)
+print(jane)
+print(john)
 # Видалення запису Jane
 book.delete("Jane")
+print(book)
