@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10d11218-bf56-4a4f-b43a-9b992405fd45" name="Changes" comment="In process task HW 6">
+    <list default="true" id="10d11218-bf56-4a4f-b43a-9b992405fd45" name="Changes" comment="Done task HW 6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goit_algo_hw_06/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/goit_algo_hw_06/first.py" afterDir="false" />
     </list>
@@ -220,7 +220,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721483085569</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Done task HW 6">
+      <option name="closed" value="true" />
+      <created>1721484966943</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1721484966943</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Done task HW 6">
+      <option name="closed" value="true" />
+      <created>1721485115616</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1721485115616</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,7 +264,8 @@
     <MESSAGE value="Done first and second task HW 5" />
     <MESSAGE value="Done fourth task HW 5" />
     <MESSAGE value="In process task HW 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="In process task HW 6" />
+    <MESSAGE value="Done task HW 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done task HW 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -272,11 +289,6 @@
           <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_24.py</url>
           <line>22</line>
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/goit_algo_hw_06/book.py</url>
-          <line>82</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

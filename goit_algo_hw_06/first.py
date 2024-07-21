@@ -17,7 +17,7 @@ class Name(Field):
 class Phone(Field):
     def phone(self):
         if len(self.value) == 10 and self.value.isdigit():
-            return self.value
+            return Phone(self.value)
         else:
             print(
                 f"Phone number {self.value} not correct. A class for storing a phone number. Has format validation "
@@ -56,7 +56,7 @@ class Record:
         return None
 
     def __str__(self):
-        return f"Contact name: {self.name.value}, phones: {'; '.join(self.phones)}."
+        return f"Contact name: {self.name.value}, phones: {'; '.join(p.value for p in self.phones)})."
 
 
 class AddressBook(UserDict):
