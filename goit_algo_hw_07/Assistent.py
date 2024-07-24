@@ -97,7 +97,6 @@ def add_birthday(args, book: AddressBook):
     else:
         record.add_birthday(birthday)
 
-
 @input_error
 def show_birthday(args, book: AddressBook):
     name, *_ = args
@@ -111,13 +110,6 @@ def show_birthday(args, book: AddressBook):
 
 def birthday(book: AddressBook):
     return AddressBook.get_upcoming_birthdays(book)
-
-    # add i 1234567890
-    # add_birthday i 25.07.1992
-    # phone i
-    # {record.birthday.value}
-    ...
-    ...
 
 
 def all(book: AddressBook):
@@ -134,6 +126,7 @@ def main():
         user_input = input("Enter a command: ")
         if user_input:
             command, *args = parse_input(user_input)
+            AddressBook.write_txt(book)
             if command in ["close", "exit", ]:
                 print("Good bye!")
                 break

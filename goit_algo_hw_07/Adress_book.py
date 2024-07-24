@@ -1,6 +1,7 @@
 from collections import UserDict
 from datetime import datetime, timedelta, date
 import Assistent as assist
+import os.path
 
 
 class Field:
@@ -85,6 +86,18 @@ class Record:
 
 
 class AddressBook(UserDict):
+
+    def write_txt(self):
+        path = "users_inform.txt"
+        list = []
+        counter = 0
+        for i, j in self.items():
+            counter += 1
+            text = f"№{counter} {j}\n"
+            list.append(text)
+        with open(path, 'w') as fh:
+            for i in list:
+                fh.write(f'{i}')
 
     def add_record(self, contact_name: Record):
         self.data[contact_name.name.value] = contact_name
