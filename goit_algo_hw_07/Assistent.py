@@ -1,4 +1,4 @@
-from book import AddressBook, Record
+from Adress_book import AddressBook, Record
 
 
 def input_error(function):
@@ -39,12 +39,6 @@ def input_error(function):
                     return function(*args, **kwargs)
                 except (TypeError, ValueError, IndexError):
                     return print("Func show_birthday, give me inform please.")
-        case "birthdays":
-            def inner(*args, **kwargs):
-                try:
-                    return function(*args, **kwargs)
-                except (TypeError, ValueError, IndexError):
-                    return print("Func birthdays, give me inform please.")
         case _:
             return print("Func not found")
     return inner
@@ -101,7 +95,8 @@ def add_birthday(args, book: AddressBook):
         message = "Contact not found."
         return print(message)
     else:
-        record.birthday.value = record.add_birthday(birthday)
+        record.add_birthday(birthday)
+
 
 @input_error
 def show_birthday(args, book: AddressBook):
@@ -111,18 +106,17 @@ def show_birthday(args, book: AddressBook):
         message = "Contact not found."
         return print(message)
     else:
-        return print(f"Name: {record.name.value}, birthday: {record.birthday.value}.")
+        return print(f"Name: {record.name}, birthday: {record.birthday}.")
+
+
+def birthday(book: AddressBook):
+    return AddressBook.get_upcoming_birthdays(book)
 
     # add i 1234567890
-    # add_birthday i 22.02.2222
+    # add_birthday i 25.07.1992
     # phone i
     # {record.birthday.value}
     ...
-
-
-
-@input_error
-def birthdays(args, book: AddressBook):
     ...
 
 
@@ -158,6 +152,6 @@ def main():
             elif command == "show_birthday":
                 show_birthday(args, book)
             elif command == "birthdays":
-                ...
+                birthday(book)
             else:
                 print("Invalid command.")

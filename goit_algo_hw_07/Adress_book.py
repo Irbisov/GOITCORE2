@@ -95,6 +95,12 @@ class AddressBook(UserDict):
     def delete(self, name: str) -> None:
         del self.data[name]
 
+    def __string_to_date(self, date_string):
+        return datetime.strptime(date_string, "%d.%m.%Y").date()
+
+    def __date_to_string(self, date):
+        return date.strftime("%d.%m.%Y")
+
     def __find_next_weekday(self, start_date, weekday):
         days_ahead = weekday - start_date.weekday()
         if days_ahead <= 0:
@@ -106,19 +112,20 @@ class AddressBook(UserDict):
             return self.__find_next_weekday(birthday, 0)
         return birthday
 
-    def get_upcoming_birthdays(self, users, days=7):
+    def get_upcoming_birthdays(self, days=7):
         upcoming_birthdays = []
         today = date.today()
         next_year = datetime(year=2025, month=12, day=30).year
-        for user in users:
-            birthday_this_year = user["birthday"].replace(year=today.year)
-            if birthday_this_year < today:
-                birthday_this_year = user["birthday"].replace(year=next_year)
-
-            if 0 <= (birthday_this_year - today).days <= days:
-                birthday_this_year = self.__adjust_for_weekend(birthday_this_year)
-                # congratulation_date_str = date_to_string(birthday_this_year)
-                upcoming_birthdays.append({"name": user["name"], "congratulation_date": birthday_this_year})
+        for user in self.data:
+            for users in user:
+                birthday_this_year = self.__string_to_date(users[0]["birthday"]).replace(year=today.year)
+                if birthday_this_year < today:
+                    birthday_this_year = self.__string_to_date(users[0]["birthday"]).replace(year=next_year)
+                if 0 <= (birthday_this_year - today).days <= days:
+                    birthday_this_year = self.__adjust_for_weekend(birthday_this_year)
+                    congratulation_date_str = self.__date_to_string(birthday_this_year)
+                    upcoming_birthdays.append(
+                        {"name": users[0]["name"], "congratulation_date": congratulation_date_str})
         return upcoming_birthdays
 
 
