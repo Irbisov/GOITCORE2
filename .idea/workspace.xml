@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10d11218-bf56-4a4f-b43a-9b992405fd45" name="Changes" comment="1 task HW 7">
+    <list default="true" id="10d11218-bf56-4a4f-b43a-9b992405fd45" name="Changes" comment="1 task HW 7 Add .txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goit_algo_hw_07/Adress_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/goit_algo_hw_07/Adress_book.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goit_algo_hw_07/Assistent.py" beforeDir="false" afterPath="$PROJECT_DIR$/goit_algo_hw_07/Assistent.py" afterDir="false" />
@@ -266,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721807159521</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="1 task HW 7 Add .txt">
+      <option name="closed" value="true" />
+      <created>1721814272075</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1721814272075</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,7 +305,8 @@
     <MESSAGE value="Done task HW 6" />
     <MESSAGE value="Done task HW 6 change phone_number class with str on Phone." />
     <MESSAGE value="1 task HW 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 task HW 7" />
+    <MESSAGE value="1 task HW 7 Add .txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 task HW 7 Add .txt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

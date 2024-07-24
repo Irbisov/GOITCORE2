@@ -1,7 +1,5 @@
 from collections import UserDict
 from datetime import datetime, timedelta, date
-import Assistent as assist
-import os.path
 
 
 class Field:
@@ -85,19 +83,9 @@ class Record:
             return f"Contact name: {self.name.value}, phones: {'; '.join(p.value for p in self.phones)}."
 
 
-class AddressBook(UserDict):
 
-    def write_txt(self):
-        path = "users_inform.txt"
-        list = []
-        counter = 0
-        for i, j in self.items():
-            counter += 1
-            text = f"№{counter} {j}\n"
-            list.append(text)
-        with open(path, 'w') as fh:
-            for i in list:
-                fh.write(f'{i}')
+
+class AddressBook(UserDict):
 
     def add_record(self, contact_name: Record):
         self.data[contact_name.name.value] = contact_name
@@ -129,18 +117,13 @@ class AddressBook(UserDict):
         upcoming_birthdays = []
         today = date.today()
         next_year = datetime(year=2025, month=12, day=30).year
-        for user in self.data:
-            for users in user:
-                birthday_this_year = self.__string_to_date(users[0]["birthday"]).replace(year=today.year)
-                if birthday_this_year < today:
-                    birthday_this_year = self.__string_to_date(users[0]["birthday"]).replace(year=next_year)
-                if 0 <= (birthday_this_year - today).days <= days:
-                    birthday_this_year = self.__adjust_for_weekend(birthday_this_year)
-                    congratulation_date_str = self.__date_to_string(birthday_this_year)
-                    upcoming_birthdays.append(
-                        {"name": users[0]["name"], "congratulation_date": congratulation_date_str})
-        return upcoming_birthdays
-
-
-if __name__ == "__main__":
-    assist.main()
+        for name, inform in self.data.items():
+            birthday_this_year = self.__string_to_date(inform.birthday.value).replace(year=today.year)
+            if birthday_this_year < today:
+                birthday_this_year = self.__string_to_date(inform.birthday.value).replace(year=next_year)
+            if 0 <= (birthday_this_year - today).days <= days:
+                birthday_this_year = self.__adjust_for_weekend(birthday_this_year)
+                congratulation_date_str = self.__date_to_string(birthday_this_year)
+                upcoming_birthdays.append(
+                    {"name": inform.name.value, "congratulation_date": congratulation_date_str})
+        return print(upcoming_birthdays)
