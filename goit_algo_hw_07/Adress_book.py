@@ -83,8 +83,6 @@ class Record:
             return f"Contact name: {self.name.value}, phones: {'; '.join(p.value for p in self.phones)}."
 
 
-
-
 class AddressBook(UserDict):
 
     def add_record(self, contact_name: Record):
@@ -124,6 +122,5 @@ class AddressBook(UserDict):
             if 0 <= (birthday_this_year - today).days <= days:
                 birthday_this_year = self.__adjust_for_weekend(birthday_this_year)
                 congratulation_date_str = self.__date_to_string(birthday_this_year)
-                upcoming_birthdays.append(
-                    {"name": inform.name.value, "congratulation_date": congratulation_date_str})
-        return print(upcoming_birthdays)
+                upcoming_birthdays.append({"name": inform.name.value, "congratulation_date": congratulation_date_str})
+        return upcoming_birthdays

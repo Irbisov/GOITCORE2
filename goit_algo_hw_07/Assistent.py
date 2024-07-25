@@ -1,5 +1,6 @@
-from Adress_book import AddressBook, Record, Name, Phone, Birthday
-import re
+from Adress_book import AddressBook, Record, Birthday
+import pickle
+from parser_txt import read_txt, write_txt, write_congratulation_date
 
 
 def input_error(function):
@@ -121,61 +122,27 @@ def all(book: AddressBook):
         print(f"№{counter} {j}")
 
 
-def read_txt():
-    dict = {}
-    ls=[]
-    path = "users_inform.txt"
-    with (open(path, 'r') as fh):
-        line = fh.readlines()
-        if len(line) == 0:
-            pass
-        else:
-            for i in line:
-                parse_line = parse_log_line(i)
-                dict[parse_log_line(i).get('name')] = parse_line
-                sample = Record(parse_line.get('name'))
-                for i in parse_line.get('phones'):
-                    sample.add_phone(i)
-                sample.add_birthday(parse_line.get('birthday'))
-                ls.append(sample)
-        return ls
+def delete(args, book: AddressBook):
+    name, *_ = args
+    book.delete(name)
 
 
-def parse_log_line(i: str) -> dict:
-    match_dict = {}
-    ls = []
-    pattern = r"[;,\-:!\s]+"
-    match = re.split(pattern, i)
-    for i in match:
-        if i == 'name':
-            index_list = match.index('name')
-            match_dict['name'] = match[index_list + 1]
-        if i.isdigit() and len(i) == 10:
-            ls.append(i)
-        if i == "birthday":
-            index_list = match.index('birthday')
-            match_dict['birthday'] = match[index_list + 1][:-1]
-    match_dict['phones'] = ls
-
-    return match_dict
+def save_data(book, filename="addressbook.pkl"):
+    with open(filename, "wb") as f:
+        pickle.dump(book, f)
 
 
-def write_txt(book):
-    path = "users_inform.txt"
-    list = []
-    counter = 0
-    for i, j in book.items():
-        counter += 1
-        text = f"№{counter} {j}\n"
-        list.append(text)
-    with open(path, 'w') as fh:
-        for i in list:
-            fh.write(f'{i}')
+def load_data(filename="addressbook.pkl"):
+    try:
+        with open(filename, "rb") as f:
+            return pickle.load(f)
+    except FileNotFoundError:
+        return AddressBook()
 
 
 def main():
+    book = load_data()
     user_txt = read_txt()
-    book = AddressBook()
     if user_txt:
         for i in user_txt:
             book.add_record(i)
@@ -185,6 +152,7 @@ def main():
         if user_input:
             command, *args = parse_input(user_input)
             write_txt(book)
+            save_data(book)
             if command in ["close", "exit", ]:
                 print("Good bye!")
                 break
@@ -203,9 +171,13 @@ def main():
             elif command == "show_birthday":
                 show_birthday(args, book)
             elif command == "birthdays":
-                birthday(book)
+                print(birthday(book))
+                write_congratulation_date(book)
+            elif command == "delete":
+                delete(args, book)
             else:
                 print("Invalid command.")
+
 
 
 if __name__ == "__main__":

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10d11218-bf56-4a4f-b43a-9b992405fd45" name="Changes" comment="1 task HW 7 Add .txt">
+    <list default="true" id="10d11218-bf56-4a4f-b43a-9b992405fd45" name="Changes" comment="1 task HW 7 Add Done">
+      <change afterPath="$PROJECT_DIR$/goit_algo_hw_07/congratulation_date.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goit_algo_hw_07/parser_txt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goit_algo_hw_07/Adress_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/goit_algo_hw_07/Adress_book.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goit_algo_hw_07/Assistent.py" beforeDir="false" afterPath="$PROJECT_DIR$/goit_algo_hw_07/Assistent.py" afterDir="false" />
@@ -46,39 +48,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.1.executor": "Run",
-    "Python.11.executor": "Run",
-    "Python.2.executor": "Run",
-    "Python.3.executor": "Run",
-    "Python.3modul 6_6_my_prog.executor": "Run",
-    "Python.3modul 6_6_my_prog_from_autocheck_go_it.executor": "Run",
-    "Python.Adress_book.executor": "Run",
-    "Python.Assistent.executor": "Run",
-    "Python.book.executor": "Run",
-    "Python.codecs.executor": "Run",
-    "Python.dsfds.executor": "Run",
-    "Python.first.executor": "Run",
-    "Python.fourth.executor": "Run",
-    "Python.fourths.executor": "Run",
-    "Python.parse.executor": "Debug",
-    "Python.scratch_24.executor": "Run",
-    "Python.scratch_25.executor": "Run",
-    "Python.scratch_26.executor": "Run",
-    "Python.second.executor": "Run",
-    "Python.third.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/rogstrix/PycharmProjects/GOITCORE2/goit_algo_hw_06",
-    "settings.editor.selected.configurable": "terminal"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3modul 6_6_my_prog.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3modul 6_6_my_prog_from_autocheck_go_it.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Adress_book.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Assistent.executor&quot;: &quot;Run&quot;,
+    &quot;Python.book.executor&quot;: &quot;Run&quot;,
+    &quot;Python.codecs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dsfds.executor&quot;: &quot;Run&quot;,
+    &quot;Python.first.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fourth.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fourths.executor&quot;: &quot;Run&quot;,
+    &quot;Python.parse.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.scratch_24.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scratch_25.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scratch_26.executor&quot;: &quot;Run&quot;,
+    &quot;Python.second.executor&quot;: &quot;Run&quot;,
+    &quot;Python.third.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/rogstrix/PycharmProjects/GOITCORE2/goit_algo_hw_06&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Python"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Python&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/goit_algo_hw_06" />
@@ -274,7 +276,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721814272075</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="1 task HW 7 Add Done">
+      <option name="closed" value="true" />
+      <created>1721862663151</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1721862663151</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -306,7 +316,8 @@
     <MESSAGE value="Done task HW 6 change phone_number class with str on Phone." />
     <MESSAGE value="1 task HW 7" />
     <MESSAGE value="1 task HW 7 Add .txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 task HW 7 Add .txt" />
+    <MESSAGE value="1 task HW 7 Add Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 task HW 7 Add Done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

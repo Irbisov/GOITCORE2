@@ -1,10 +1,10 @@
 №1 Contact name: ihor, phones: 1234567890, birthday: 21.07.2020.
 №2 Contact name: tana, phones: 1234567890; 0987654321, birthday: 22.01.2002.
-№3 Contact name: oleg, phones: 1234567890, birthday: 28.09.2020.
-№4 Contact name: zina, phones: 1234567890; 0987654321, birthday: 01.07.2002.
-№5 Contact name: vlad, phones: 1234567890, birthday: 13.09.2020.
+№3 Contact name: oleg, phones: 1234567890, birthday: 28.07.2020.
+№4 Contact name: zina, phones: 1234567890; 0987654321, birthday: 01.08.2002.
+№5 Contact name: vlad, phones: 1234567890, birthday: 13.07.2020.
 №6 Contact name: tolik, phones: 1234567890; 0987654321, birthday: 27.07.2002.
-№7 Contact name: vlada, phones: 1234567890, birthday: 05.09.2020.
-№8 Contact name: tomas, phones: 1234567890; 0987654321, birthday: 30.07.2002.
-№9 Contact name: vova, phones: 1234567890, birthday: 06.09.2020.
-№10 Contact name: kiril, phones: 1234567890; 0987654321, birthday: 02.08.2002.
+№7 Contact name: vlada, phones: 1234567890, birthday: 05.08.2020.
+№8 Contact name: vova, phones: 1234567890, birthday: 06.09.2020.
+№9 Contact name: kiril, phones: 1234567890; 0987654321, birthday: 01.08.2002.
+№10 Contact name: misha, phones: 1234567890, birthday: 22.03.1986.
