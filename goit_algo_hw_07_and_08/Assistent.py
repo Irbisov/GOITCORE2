@@ -112,7 +112,8 @@ def show_birthday(args, book: AddressBook):
 
 
 def birthday(book: AddressBook):
-    return AddressBook.get_upcoming_birthdays(book)
+    for i in AddressBook.get_upcoming_birthdays(book):
+        print(i)
 
 
 def all(book: AddressBook):
@@ -171,13 +172,12 @@ def main():
             elif command == "show_birthday":
                 show_birthday(args, book)
             elif command == "birthdays":
-                print(birthday(book))
+                birthday(book)
                 write_congratulation_date(book)
             elif command == "delete":
                 delete(args, book)
             else:
                 print("Invalid command.")
-
 
 
 if __name__ == "__main__":

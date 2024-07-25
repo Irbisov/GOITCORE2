@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10d11218-bf56-4a4f-b43a-9b992405fd45" name="Changes" comment="1 task HW 7 Add Done">
-      <change afterPath="$PROJECT_DIR$/goit_algo_hw_07/congratulation_date.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goit_algo_hw_07/parser_txt.py" afterDir="false" />
+    <list default="true" id="10d11218-bf56-4a4f-b43a-9b992405fd45" name="Changes" comment="1 task HW 7,8 Add Done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goit_algo_hw_07/Adress_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/goit_algo_hw_07/Adress_book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goit_algo_hw_07/Assistent.py" beforeDir="false" afterPath="$PROJECT_DIR$/goit_algo_hw_07/Assistent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goit_algo_hw_07/users_inform.txt" beforeDir="false" afterPath="$PROJECT_DIR$/goit_algo_hw_07/users_inform.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goit_algo_hw_07_and_08/Assistent.py" beforeDir="false" afterPath="$PROJECT_DIR$/goit_algo_hw_07_and_08/Assistent.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -284,7 +280,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721862663151</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="1 task HW 7,8 Add Done">
+      <option name="closed" value="true" />
+      <created>1721914353908</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1721914353908</updated>
+    </task>
+    <task id="LOCAL-00024" summary="1 task HW 7,8 Add Done">
+      <option name="closed" value="true" />
+      <created>1721914434856</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1721914434856</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -317,7 +329,8 @@
     <MESSAGE value="1 task HW 7" />
     <MESSAGE value="1 task HW 7 Add .txt" />
     <MESSAGE value="1 task HW 7 Add Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 task HW 7 Add Done" />
+    <MESSAGE value="1 task HW 7,8 Add Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 task HW 7,8 Add Done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
